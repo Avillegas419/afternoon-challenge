@@ -1,0 +1,66 @@
+.my-style {
+  background-color: rgba(20, 56, 173, 0.993);
+  border: solid 3px black;
+  color: aliceblue;
+  text-align: center;
+  font: 1.5em sans-serif;
+  padding: 1em;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.left {
+width: 65vw;
+flex-direction: column;
+padding: 1em;
+text-align: center;
+margin: 0;
+}
+
+.center{
+  align-items: center;
+}
+
+.end{
+  justify-content: end;
+}
+
+.right {
+  width: 25vw;
+  padding: 1em;
+  flex-direction: column;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-width{
+  width: 30vw;
+}
+
+.related-article{
+  text-align: right
+}
+body {
+  display: inline-block;
+  margin: 0;
+}
+h5{
+  text-align: right;
+}
+h2{
+  text-align: center;
+}
+
+.image {
+  width: 170px;
+  object-fit: cover;
+}
